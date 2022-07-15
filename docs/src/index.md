@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: Write ups for Sean&#39;s development projects
+tagline: Sean McDonald - Development Projects
 actionText: Quick Start →
 actionLink: /guide/
 features:
