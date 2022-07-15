@@ -1,0 +1,19 @@
+{
+  "name": "dev-blog",
+  "version": "0.0.1",
+  "description": "Write ups for Sean&#39;s development projects",
+  "main": "index.js",
+  "authors": {
+    "name": "Sean McDonald",
+    "email": "stmcdonald@vt.edu"
+  },
+  "repository": "https://github.com/stmcdonald-vt/dev-blog/dev-blog",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
