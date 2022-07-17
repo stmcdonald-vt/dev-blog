@@ -29,7 +29,7 @@ module.exports = {
   themeConfig: {
     repo: '',
     editLinks: false,
-    docsDir: '',
+    docsDir: 'src/',
     editLinkText: '',
     lastUpdated: false,
     nav: [
@@ -47,13 +47,13 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/projects/': [
         {
-          title: 'Guide',
+          title: 'Projects',
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'games-with-words',
           ]
         }
       ],
