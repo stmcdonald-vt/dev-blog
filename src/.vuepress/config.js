@@ -29,6 +29,7 @@ module.exports = {
   themeConfig: {
     repo: '',
     editLinks: false,
+    search: false,
     docsDir: 'src/',
     editLinkText: '',
     lastUpdated: false,
@@ -36,14 +37,6 @@ module.exports = {
       {
         text: 'Projects',
         link: '/projects/',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
       }
     ],
     sidebar: {
